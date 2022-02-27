@@ -1,0 +1,99 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Red Hat Display";
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-img-top {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-square {
+  border-style: hidden;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  padding: 1% 0;
+  margin-bottom: 1.5rem;
+}
+
+.card-info {
+  margin: 5% auto;
+}
+
+.card-title {
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
+  font-weight: 900;
+}
+
+.card-text {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-left {
+  margin-bottom: 0;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  width: 70px;
+  margin-left: 70px;
+}
+
+.change-left:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(225, 100%, 80%);
+}
+
+.btn-larger {
+  padding: 8px 60px;
+  border-radius: 0.7rem;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 500;
+  box-shadow: 0px 20px 0px hsl(225deg 56% 63% / 5%);
+  font-size: 16px;
+}
+
+.btn-larger:hover {
+  background-color: #966fd6;
+  border-color: hidden;
+}
+
+.cancel {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.cancel-order {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-family: "Red Hat Display";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  margin-top: 2rem;
+}
